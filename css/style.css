@@ -1,36 +1,95 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+.wrapper {
+    width: 74%;
+    height: 460px;
+    position: absolute;
+    top: 91px;
+    left: 138px;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+.intro {
+    position: absolute;
+    left: 60px;
+    top: 101px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 0px;
-    list-style: none;
-    font-weight: bold;
+    gap: 43px;
+    background-color: #fff;
+    width: 360px;
+    height: 188px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.title {
+    width: 342px;
+    font-weight: bolder;
+    font-size: 50px;
 }
+
+.subheadline {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+}
+
+.project {
+    background-color: #FDC435;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.linkedin {
+    border: 2px solid #25282B;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.header {
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    left: 756px;
+    top: 16px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.yellow {
+    position: absolute;
+    z-index: -1;
+    left: 536px;
+}
+
+.girl {
+    position: absolute;
+    z-index: 1;
+    left: 536px;
+}
+
 a {
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    color: #000;
 }
 
 ul.posts { 
